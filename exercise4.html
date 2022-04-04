@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset4.css">
+    <link rel="stylesheet" href="exercise4.css">
+    <title>Document</title>
+
+</head>
+    <body>
+        <form method="get" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+            <fieldset id="orderform">
+                <legend>Shirt Order Form </legend>
+                <fieldset id="details"
+                    <label for="shirtsize">Shirt Size</label><br>
+                    <select name="shirtsize" id="shirtsize">
+                        <option value="" disabled selected hidden>Choose size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select><br>
+
+                    <label>Sleeves Size</label><br>
+                    <input type="radio" name="sleevesize" checked/>Short <br>
+                    <input type="radio" name="sleevesize"/>Long <br>
+
+                    <label for="colourofshirt">Choose Shirt Colour</label><br>
+                    <input type="color" name="colorChoice" id="shirtchoice"><br>
+
+                    <label for="quantityofshirt">Quantity</label><br>
+                    <input type="number" min="1" max="10" name="Quantity" id="shirtquantity"><br>
+
+                    <label for="date">Date Requested</label><br>
+                    <input type="date" name="date" id="daterequested" placeholder="dd/mm/yyyy"><br>
+                </fieldset>
+
+ 
+                <fieldset id="personaldetails">
+                    <label for="name">Your Name</label><br>
+                    <input type="text" name="name" id="name"><br>
+
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="email" id="email"><br>
+
+
+                    <label for="phone">Telephone Number</label><br>
+                    <input type="text" id="phone" name="phone" pattern="[0-9]{2}[ -][0-9]{3}[ -][0-9]{3}[ -][0-9]{4}"
+                    ><small>Example: 44-207-882-1234</small><br>
+                </fieldset>
+                
+
+                <fieldset id="location">
+
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address" name="address"><br>
+
+                    <label for="city">City</label><br>
+                    <input type="text" name="city" list="cities" id="city"><br/>
+                    <datalist id="cities">
+                        <option value="" disabled selected hidden>Choose A City</option>
+                        <option value="London">London</option>
+                        <option value="Birmingham">Birmingham </option>
+                        <option value="Glassgow">Glassgow</option>
+                        <option value="Manchester">Manchester</option>
+                    </datalist>
+                    <label for="postcode">Postcode</label><br>
+                    <input type="text" id="postcode" name="postcode">
+                </fieldset>
+                
+                <fieldset id="futureemails">
+                    <label for="keepmeupdated">please keep me informed about future shirt designs</label>
+                    <input type="checkbox" name="updated" id="keepmeupdated" /><br/>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset Form">
+                </fieldset>
+            </fieldset>
+    ``  </form>
+    </body>
+</html>
+
+ 

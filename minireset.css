@@ -1,0 +1,28 @@
+/* this code removes all default stylings of browsers */
+html,
+body,
+div,
+span,
+h1,
+h2,
+b,
+br,
+img,
+p,
+a,
+li,
+header,
+figure,
+ul,
+footer,
+label,
+section,
+form,
+head,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}

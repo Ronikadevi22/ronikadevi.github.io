@@ -1,0 +1,48 @@
+
+fieldset fieldset{
+    margin: 7px;
+    border-color: rgb(111, 160, 111);
+}
+fieldset{
+    border-color: rgb(160, 192, 160);
+    background-color: rgb(140, 196, 183);
+}
+form{
+    width: 50%;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-family: serif;
+}
+
+legend{
+    background-color: rgb(100, 175, 100);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 6px;
+}
+
+#futureemails{
+    background-color: rgb(247, 225, 225);
+    border: none;
+}
+
+input[type=reset]{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgb(80, 145, 146);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 30%;
+}
+input[type=submit]{
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    background-color: rgb(80, 145, 146);
+    color: rgb(247, 241, 241);
+    border-radius: 6px;
+    width: 30%;
+}
+
+
